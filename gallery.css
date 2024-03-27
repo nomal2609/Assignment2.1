@@ -1,0 +1,77 @@
+/* Reset default styles */
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+    background-color: #f2f2f2; /* Background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center; /* Center-align heading */
+    margin-top: 20px; /* Top margin for spacing */
+}
+
+/* Grayscale filter for inactive thumbnails */
+#thumbnails img {
+    filter: grayscale(100%); /* Apply grayscale filter to thumbnails */
+}
+
+/* Remove grayscale filter for active thumbnail */
+#thumbnails img.active {
+    filter: grayscale(0%); /* Remove grayscale filter for active thumbnail */
+}
+
+/* Gallery styles */
+#gallery {
+    text-align: center; /* Center-align gallery content */
+}
+
+/* Figure styles */
+#gallery figure {
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+
+/* Thumbnail list styles */
+#thumbnails {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center-align thumbnails */
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+/* Individual thumbnail styles */
+#thumbnails li {
+    margin-right: 10px; /* Right margin for spacing between thumbnails */
+}
+
+/* Thumbnail image styles */
+#thumbnails img {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: 2px solid transparent; /* Transparent border */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for thumbnails */
+#thumbnails img:hover {
+    border-color: #007bff; /* Border color on hover */
+}
+
+/* Featured image styles */
+#featured-image {
+    display: block; /* Display as block element */
+    margin: 0 auto; /* Center-align horizontally */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+}
+
+/* Image title styles */
+#image-title {
+    margin-top: 10px; /* Top margin for spacing */
+    font-size: 18px; /* Font size */
+    color: #333; /* Text color */
+}
+
+/* Image description styles */
+#image-description {
+    color: #666; /* Text color */
+}
